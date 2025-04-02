@@ -123,7 +123,7 @@ This sample is configured to support debugging both JavaScript and C# files. New
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <BlazorAppUrl>https://localhost:7215/</BlazorAppUrl>
+    <BlazorAppUrl>https://localhost:7216/</BlazorAppUrl>
     <InspectUri>{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}</InspectUri>
   </PropertyGroup>
 </Project>
